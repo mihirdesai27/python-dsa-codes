@@ -14,6 +14,3 @@ largest, smallest = max_min(arr)
 print("Smallest:", smallest)
 print("Largest:", largest)
 
-# Output should be:
-# Smallest: 1
-# Largest: 55
