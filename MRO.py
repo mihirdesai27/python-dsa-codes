@@ -1,15 +1,17 @@
 class A:
-    def show(self): print("A")
+    def show(self):
+        print("A says hello")
 
 class B(A):
-    def show(self): print("B")
+    def show(self):
+        print("B says hi")
 
 class C(A):
-    def show(self): print("C")
+    def show(self):
+        print("C says hey")
 
-class D(B, C):
+class D(C, B):
     pass
 
 d = D()
 d.show()
-print(D.mro())
